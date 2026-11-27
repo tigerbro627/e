@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "serverhub",
+  "version": "${version}",
+  "name": "ServerHub",
+  "description": "Money, auction house, admin shop and teleport requests. Server-side only: players need no mods.",
+  "authors": ["Your Name"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.serverhub.ServerHub"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
